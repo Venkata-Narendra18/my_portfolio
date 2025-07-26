@@ -75,7 +75,7 @@ const Index = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 glass-nav">
         <div className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <div className="text-2xl font-bold gradient-text">VNC</div>
+            <div className="text-2xl font-bold gradient-text"></div>
             <div className="hidden md:flex space-x-8">
               {['Hero', 'About', 'Skills', 'Projects', 'Contact'].map((item) => (
                 <button
@@ -95,8 +95,8 @@ const Index = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+      {/* Home Section */}
+      <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/10"></div>
         <div className="container mx-auto px-6 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -154,9 +154,9 @@ const Index = () => {
               <div className="relative">
                 <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden glass-card">
                   <img
-                    src="/lovable-uploads/7cb11d01-4ad2-448d-bcb7-baf2904e631f.png"
+                    src="/my-uploads/7cb11d01-4ad2-448d-bcb7-baf2904e631f.png"
                     alt="Venkata Narendra Chinthaguntla"
-                    className="w-full h-full object-cover object-center"
+                    className="w-full h-full object-contain object-top"
                   />
                 </div>
                 <div className="absolute inset-0 rounded-full border-4 border-primary/30 neon-glow animate-pulse-neon"></div>
@@ -175,13 +175,20 @@ const Index = () => {
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-lg md:text-xl leading-relaxed text-muted-foreground">
-                <span className="text-foreground font-semibold">VENKATA NARENDRA CHINTHAGUNTLA</span> is a passionate and ambitious 
-                <span className="text-primary neon-glow"> Full Stack Developer</span> with strong foundations in 
-                <span className="text-secondary neon-glow"> Java</span> and 
-                <span className="text-accent neon-glow"> Data Structures & Algorithms</span>. 
-                Skilled in crafting responsive front-end interfaces and building robust back-end systems, 
-                Narendra is always ready to learn, adapt, and innovate. His attention to detail and love for technology 
-                drive him to build impactful digital solutions with clean code and futuristic UI.
+                I'm 
+                <span className="text-foreground font-semibold"> Venkata Narendra Chinthaguntla</span> a final-year Computer Science Engineering student at Mohan Babu University, currently holding a CGPA of 8.94. With a strong passion for AI, edtech, and scalable systems, I specialize in developing full-stack solutions that blend futuristic design with robust logic.
+
+My technical expertise spans
+                         <span className="text-secondary neon-glow"> Full Stack Development</span> , 
+                <span className="text-primary neon-glow"> Java</span> and 
+                <span className="text-accent neon-glow"> Data Structures & Algorithms</span>. I've gained hands-on experience through impactful internships at 
+                 <span className="text-primary neon-glow"> ISRO</span> 
+    
+, Google for Developers, and Agnirva, where I contributed to real-world projects across web, mobile, and space-tech domains.
+
+Driven by innovation and a problem-solving mindset, I’m eager to join forward-thinking teams where I can leverage my skills and creativity to deliver meaningful tech solutions.
+
+
               </p>
             </div>
           </div>
