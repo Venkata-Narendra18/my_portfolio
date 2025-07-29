@@ -117,14 +117,12 @@ const Index = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
-  <a
-    href="/Narendra-Resume.pdf"
-    download
-    className="glass-card px-6 py-3 text-base font-semibold hover-glow flex items-center gap-3 transition-all duration-300 justify-center"
-  >
-    <Download className="w-5 h-5" />
+  <button 
+    onClick={() => scrollToSection('contact')}
+    className="glass-card px-6 py-3 text-base font-semibold hover-glow neon-border transition-all duration-300 justify-center"
+>
     Download Resume
-  </a>
+    </button>
   
   <button
     onClick={() => scrollToSection('contact')}
